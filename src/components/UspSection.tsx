@@ -4,7 +4,7 @@ import FeatureCard from "./FeatureCard";
 export default function UspSection() {
   return (
     <div className="my-10">
-      <div className="mb-15 flex justify-center items-center">
+      <div className="mb-10 flex justify-center items-center">
         <h2 className="text-4xl font-semibold">What Makes Us Different</h2>
       </div>
       <div className="flex justify-center items-center space-x-4 mx-20">

@@ -16,7 +16,7 @@ export default function FeatureCard({
 }: Props) {
     return (
         <div
-            className={`h-70 flex flex-col items-center justify-center text-center p-4 rounded-3xl 
+            className={`h-70 flex flex-col items-center text-center p-4 rounded-3xl 
             shadow-xl bg-background z-30 ${className}`}
         >
             {/* icon container with even shadow all around */}
