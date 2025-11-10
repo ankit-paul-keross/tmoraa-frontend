@@ -1,5 +1,6 @@
 import AboutSection from '@/components/AboutSection'
 import BenefitSection from '@/components/BenefitSection'
+import FaqSection from '@/components/FaqSection'
 import HeroSection from '@/components/HeroSection'
 import HowItWorksSection from '@/components/HowItWorksSection'
 import HowTmoraaWorkSection from '@/components/HowTmoraaWorkSection'
@@ -20,6 +21,7 @@ export default function Home() {
       <UspSection/>
       <HowTmoraaWorkSection/>
       {/* <WhyYoullLoveTmoraaSection/> */}
+      <FaqSection/>
     </>
   )
 }
