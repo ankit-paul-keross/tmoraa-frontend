@@ -14,7 +14,7 @@ export default function ContactUsSection() {
                             We’re Here To Help You Run Smarter
                         </h2>
                         <p className="text-sm mt-2">
-                            Have Questions or Need Expert Help? Ready to Guide You Through Setup, Demo &amp; Support.
+                            Have Questions or Need Expert Help? Ready to Guide You Through Setup, Demo & Support.
                         </p>
                     </div>
 
