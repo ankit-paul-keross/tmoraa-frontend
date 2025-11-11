@@ -25,6 +25,7 @@ export default function Home() {
       <UspSection />
       <HowTmoraaWorkSection />
       <WhyYoullLoveTmoraaSection />
+      <PricePlanSection />
       <FaqSection />
       <BookDemoSection />
       <ContactUsSection />

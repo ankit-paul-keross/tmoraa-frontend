@@ -31,7 +31,7 @@ export default function ProblemSolutionSection() {
                 <img
                     src="/seamlessly-ellipse-img.png"
                     alt=""
-                    className="absolute left-0 top-100 object-cover -z-10"
+                    className="absolute left-0 top-100 object-cover -z-20"
                 />
 
                 {/* Text sections */}

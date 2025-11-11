@@ -26,7 +26,7 @@ export default function HeroSection() {
                 <Image src="/notion-logo.png" alt="Notion" width={100} height={0} className="grayscale hover:grayscale-0 transition duration-300" />
                 <Image src="/slack-logo.png" alt="Slack" width={100} height={0} className="grayscale hover:grayscale-0 transition duration-300" />
             </div> */}
-            <div className='h-10'></div>
+            <div className='h-20'></div>
         </div>
     )
 }

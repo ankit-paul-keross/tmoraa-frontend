@@ -5,7 +5,7 @@ export default function HowItWorksSection() {
     return (
         <div className='relative h-fit'>
             <img src="/smart-bg-ellipse.png" alt='' className='absolute w-screen object-cover z-0' />
-            <img src="/mission-card-top.png" alt='' className='absolute left-30 top-[60%] h-20 w-20 object-cover' />
+            <img src="/mission-card-top.png" alt='' className='absolute left-30 top-[63%] h-20 w-20 object-cover' />
             <img src="/mission-card-bottom.png" alt='' className='absolute right-30 top-[90%] h-20 w-20 object-cover' />
             <div className='pt-20 mb-15 flex justify-center items-center'>
                 <h2 className='text-4xl font-semibold'>Workflow</h2>
