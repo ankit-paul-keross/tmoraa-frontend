@@ -26,16 +26,16 @@ const PricingCard: React.FC<PricingCardProps> = ({
                     </div>
                 )}
 
-                <h3 className="text-2xl font-semibold mt-4 text-left">{planName}</h3>
-                <p className="font-semibold text-2xl text-left mt-2 mb-8 bg-linear-to-r from-[#29b47d] to-[#0a80d2] bg-clip-text text-transparent">{employeesRange}</p>
+                <h3 className="text-2xl font-semibold mt-4 lg:text-left md:text-center sm:text-center">{planName}</h3>
+                <p className="font-semibold text-2xl mt-2 mb-8 bg-linear-to-r from-[#29b47d] to-[#0a80d2] bg-clip-text text-transparent lg:text-left md:text-center sm:text-center">{employeesRange}</p>
 
-                <div className="flex items-end mb-8">
-                    <div className="text-[50px] font-bold">{typeof price === 'number' ? `$${price}` : `${price}`}</div>
+                <div className="flex items-end sm:justify-center md:justify-center lg:justify-start justify-center mb-8 ">
+                    <div className="text-[50px] font-bold ">{typeof price === 'number' ? `$${price}` : `${price}`}</div>
                     <p className="text-sm mb-5">/ month</p>
                 </div>
 
 
-                <ul className="text-sm space-y-2 text-left">
+                <ul className="text-sm space-y-2 lg:pl-0 md:pl-0 sm:pl-6 pl-6 text-left">
                     {features.map((feature, index) => (
                         <li key={index} className="flex items-center space-x-2">
                             <span className="font-bold">✓</span>

@@ -65,8 +65,9 @@ export default function FaqSection() {
             <div>
               <p className='font-semibold text-base md:text-[18px]'>How much does Tmoraa cost?</p>
               <p>Pricing is based on employee tiers, starting at $99 per month
-                for 0–20 employees. A progressive discount of 10% is applied for additional users. The one-
-                time integration fee is $1,199.</p>
+                for 0–20 employees. A progressive discount of 10% is applied for additional users. There
+                might be integration fees based on the solution provided.
+              </p>
             </div>
             <div>
               <p className='font-semibold text-base md:text-[18px]'>How long does setup take?</p>

@@ -14,7 +14,7 @@ export default function BenefitSection() {
 
             <div className="flex flex-col lg:flex-row">
 
-                <div className="pt-24 pb-16 lg:pt-52 lg:pb-55 px-6 lg:pl-64 lg:px-0 w-full lg:w-fit text-center lg:text-left">
+                <div className="pt-24 pb-16 lg:pt-52 lg:pb-55 px-6 lg:pl-64 lg:px-0 w-full lg:w-fit text-left">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl text-black font-semibold">Key Benefits</h2>
                     <List className="mt-10" imageSrc="/blt-one.png">
                         Unified dashboard for all operational data

@@ -68,7 +68,7 @@ export default function AboutSection() {
                                 md:w-auto z-30 opacity-12"
                 />
 
-                <div className="bg-background rounded-2xl shadow-2xl p-6 md:p-8">
+                <div className="bg-background rounded-2xl shadow-[0px_85.26px_181.4px_0px_#15151526] p-6 md:p-8">
                     <div className="grid grid-cols-1 lg:grid-cols-[5fr_2fr] gap-8 md:gap-4">
                         <div className="pt-10 md:pt-20 pb-10 pr-0 lg:pr-32 order-last lg:order-0">
                             <p className='text-base md:text-[18px] leading-8 md:leading-9'>
@@ -89,10 +89,12 @@ export default function AboutSection() {
                         <img
                             src="/krn1.png"
                             alt="Founder & CEO"
-                            className="size-64 md:size-96 mx-auto lg:mx-0 order-first lg:order-0"
+                            className="size-64 md:size-96 mx-auto lg:mx-0 order-first lg:order-0 rounded-full object-cover"
                         />
+
                     </div>
                 </div>
+
             </div>
         </section>
     )
