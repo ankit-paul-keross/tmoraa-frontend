@@ -18,7 +18,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
     isPopular = false,
 }) => {
     return (
-        <div className={`relative bg-background rounded-2xl shadow-md p-0.5 ${isPopular ? 'bg-linear-to-r from-[#29b47d] to-[#0a80d2]' : 'border border-gray-200'}  w-108 hover:shadow-lg text-center transition-shadow duration-300`} >
+        <div className={`relative bg-background rounded-2xl shadow-md p-0.5 ${isPopular ? 'bg-linear-to-r from-[#29b47d] to-[#0a80d2]' : 'border border-gray-200'}  w-full max-w-[432px] hover:shadow-lg text-center transition-shadow duration-300`} >
             <div className="bg-background rounded-2xl p-8">
                 {isPopular && (
                     <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#0A80D2] text-white text-xs font-semibold px-3 py-1 rounded-full">

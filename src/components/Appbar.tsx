@@ -54,7 +54,9 @@ export default function Appbar() {
         <nav className='sticky top-0 z-50 bg-white/2 backdrop-blur-md relative'>
             <div className="flex items-center justify-between py-4 px-6">
 
-                <Image src="/tmoraa-logo.png" alt="Tmoraa Logo" width={221} height={0} className="h-auto" />
+                <Link href="/" >
+                    <Image src="/tmoraa-logo.png" alt="Tmoraa Logo" width={221} height={0} className="h-auto" />
+                </Link>
 
                 <ul className="hidden md:flex items-center space-x-16 ">
                     <li><Link href="#home" className='text-[#181818] bg-transparent rounded-full text-base font-medium focus:outline-none hover:bg-linear-to-r hover:from-[#29b47d] hover:to-[#0a80d2] hover:bg-clip-text hover:text-transparent'>Home</Link></li>
