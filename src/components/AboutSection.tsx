@@ -43,11 +43,11 @@ export default function AboutSection() {
                         />
 
                         <div data-aos="zoom-in" className="bg-background rounded-2xl w-full lg:w-[900px] z-10 relative overflow-hidden shadow-lg">
-                            <Image
+                            <img
                                 src="/ai-about-illustration.png"
                                 alt="AI Illustration"
-                                width={1904}
-                                height={1079}
+                                width="1904"
+                                height="1079"
                                 className="w-full h-auto"
                                 sizes="(max-width: 768px) 100vw, 850px"
                             />

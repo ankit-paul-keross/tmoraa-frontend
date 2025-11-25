@@ -53,13 +53,12 @@ export default function BenefitSection() {
                     />
 
                     <div data-aos="zoom-in" className="bg-background rounded-2xl w-full lg:w-[850px] z-10 relative overflow-hidden shadow-lg">
-                        <Image
+                        <img
                             src="/dashboard.png"
                             alt="Dashboard preview"
-                            width={1904}
-                            height={1079}
                             className="w-full h-auto"
-                            sizes="(max-width: 768px) 100vw, 850px"
+                            width="1904"
+                            height="1079"
                         />
                     </div>
 

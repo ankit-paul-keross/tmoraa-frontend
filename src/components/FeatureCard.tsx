@@ -25,7 +25,12 @@ export default function FeatureCard({
                     group-hover:shadow-none group-hover:border group-hover:border-[#0A80D2] group-hover:border-dashed
                     transition-all duration-50"
             >
-                <Image src={iconImg} alt={title} width={60} height={60} />
+                <img
+                    src={iconImg}
+                    alt={title}
+                    width="60"
+                    height="60"
+                />
             </div>
             {title && <h3 className="text-2xl font-semibold mb-2">{title}</h3>}
             <p className=" leading-[26px]">{description}</p>

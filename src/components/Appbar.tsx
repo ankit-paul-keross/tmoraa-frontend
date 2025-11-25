@@ -57,7 +57,11 @@ export default function Appbar({ activeSection }: { activeSection: string }) {
             <div className="flex items-center justify-between py-4 px-6">
 
                 <Link href="/" >
-                    <Image src="/tmoraa-logo.png" alt="Tmoraa Logo" width={221} height={0} className="h-auto" />
+                    <img
+                        src="/tmoraa-logo.png"
+                        alt="Tmoraa Logo"
+                        className="h-auto w-[221px]"
+                    />
                 </Link>
 
                 <ul className="hidden md:flex items-center space-x-16 ">
