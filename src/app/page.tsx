@@ -5,6 +5,7 @@ import Appbar from '@/components/Appbar'
 import BenefitSection from '@/components/BenefitSection'
 import BookDemoSection from '@/components/BookDemoSection'
 import ContactUsSection from '@/components/ContactUsSection'
+import CountdownSection from '@/components/CountdownSection'
 import FaqSection from '@/components/FaqSection'
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
@@ -56,6 +57,7 @@ export default function Home() {
 
       <div id="home" ref={sectionRefs.home}>
         <HeroSection />
+        <CountdownSection />
         <ProblemSolutionSection />
         <BenefitSection />
         <HowItWorksSection />
