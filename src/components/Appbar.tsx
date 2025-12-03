@@ -170,7 +170,7 @@ export default function Appbar({ activeSection }: { activeSection: string }) {
                         <AlertDialogTrigger asChild>
                             <GradientOutlineButton>Login</GradientOutlineButton>
                         </AlertDialogTrigger>
-                        <AlertDialogContent>
+                        <AlertDialogContent className='max-w-lg!'>
                             <AlertDialogHeader>
                                 <AlertDialogTitle>Coming Soon</AlertDialogTitle>
                                 <AlertDialogDescription>
@@ -186,7 +186,7 @@ export default function Appbar({ activeSection }: { activeSection: string }) {
                         <AlertDialogTrigger asChild>
                             <GradientButton>Sign Up</GradientButton>
                         </AlertDialogTrigger>
-                        <AlertDialogContent>
+                        <AlertDialogContent className='max-w-lg!'>
                             <AlertDialogHeader>
                                 <AlertDialogTitle>Coming Soon</AlertDialogTitle>
                                 <AlertDialogDescription>
@@ -235,7 +235,7 @@ export default function Appbar({ activeSection }: { activeSection: string }) {
                         toast("Coming Soon", {
                             description: "We are putting the finishing touches on the web application. We will be live very soon.",
                             position: "top-center",
-                            className: "max-w-[350px] text-base!",
+                            className: "max-w-screen text-base!",
                             richColors: true,
                         })
                     } >Login</GradientOutlineButton>
@@ -243,7 +243,7 @@ export default function Appbar({ activeSection }: { activeSection: string }) {
                         toast("Coming Soon", {
                             description: "We are putting the finishing touches on the web application. We will be live very soon.",
                             position: "top-center",
-                            className: "max-w-[350px] text-base!",
+                            className: "max-w-screen text-base!",
                             richColors: true,
                         })
                     }> Sign up</GradientButton>

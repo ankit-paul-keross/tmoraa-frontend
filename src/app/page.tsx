@@ -51,7 +51,7 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <div className="overflow-x-hidden sm:overflow-x-visible">
       <Appbar activeSection={activeSection} />
 
 
@@ -85,6 +85,6 @@ export default function Home() {
       <div id="contactUs" ref={sectionRefs.contactUs}>
         <ContactUsSection />
       </div>
-    </>
+    </div>
   )
 }

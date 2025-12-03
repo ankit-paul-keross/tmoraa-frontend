@@ -28,6 +28,7 @@ export default function HeroSection() {
                 >
                     <video
                         src="/tmoraa-video.mp4"
+                        poster='/poster.jpg'
                         controls
                         playsInline
                         className="w-full h-full object-cover"
